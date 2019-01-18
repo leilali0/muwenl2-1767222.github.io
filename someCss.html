@@ -1,0 +1,76 @@
+<!DOCTPYE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="external style sheet.css">
+        <title>Leila's Websire</title>
+        <style>
+            p.a {
+                font: 15px arial, sans-serif;
+            }
+                
+            p.b {
+                font: italic bold 12px/30px Georgia, serif;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .img1{
+                float: left;
+            }
+
+            .container {
+                position: relative;
+                text-align: center;
+                color: green;
+            }
+
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            p.dotted {border-style: dotted;}
+
+            #rcorners1 {
+                border-radius: 25px;
+                background: lightblue;
+                padding: 20px; 
+                width: 200px;
+                height: 200px;  
+            }
+            p.clear {
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="a"> Hellow </p>
+        <p class="b"> World </p>
+        
+        <div class="container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/58/University_of_Washington_seal.svg/1920px-University_of_Washington_seal.svg.png"
+            title="UW" width="150" height="150">
+            <div class="centered">Centered</div>
+        </div>
+
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/New_York_University_Seal.svg/1280px-New_York_University_Seal.svg.png"
+        title="NYU" width="100" height="100" align="middle" hspace="20">
+
+        <p class="dotted">A dotted border.</p>
+        
+        <p>
+            <img class = img1 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mary_Gates_Hall%2C_April_2008.jpg/2560px-Mary_Gates_Hall%2C_April_2008.jpg"
+            title="Mary_Gates_Hall" width="150" height="150">
+        UW Mary Gates Hall.
+        </p>
+        
+        <p class="clear" id="rcorners1"> An element with rounded border corners.</p>
+    </body>
+</html>
+
