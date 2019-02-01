@@ -1,0 +1,36 @@
+#Header{
+    border: solid 8px black;
+    font-size: 150px;
+    font-family: "passion One";
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    border-radius: 25px;
+}
+
+h2{
+    border: dotted 1px black;
+    font-family: "Times New Roman";
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+fieldset{
+    background-color: whitesmoke;
+}
+
+
+body{
+    background-image: url('Graduated_Blue_Background.png');
+}
+
+img{
+    width: 250px;
+    height: 300px;
+}
